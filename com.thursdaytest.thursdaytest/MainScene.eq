@@ -112,22 +112,22 @@ public class MainScene : SEScene
 
 		if(pX > width*0.35 && pX < width*0.5 && pY > 0 && pY < height*0.15)
 		{
-			batman = add_sprite_for_image(SEImage.for_resource("batman2"));
+			batman2 = add_sprite_for_image(SEImage.for_resource("batman2"));
 		}
 
 		else if(pX > width* 0.75 && pX < width && pY > 0 && pY < height*0.15)
 		{
-			superman = add_sprite_for_image(SEImage.for_resource("superman2"));
+			superman2 = add_sprite_for_image(SEImage.for_resource("superman2"));
 		}
 
 		else if(pX > width* 0.35 && pX < width*0.5 && pY > height*0.5 && pY < height*0.65)
 		{
-			robin = add_sprite_for_image(SEImage.for_resource("robin2"));
+			robin2 = add_sprite_for_image(SEImage.for_resource("robin2"));
 		}
 
 		else if(pX > width* 0.75 && pX < width && pY > height*0.5 && pY < height*0.65)
 		{
-			flash = add_sprite_for_image(SEImage.for_resource("flash2"));
+			flash2 = add_sprite_for_image(SEImage.for_resource("flash2"));
 		}
 
 
