@@ -1,0 +1,9 @@
+
+#
+# Project configuration file for
+# thursdaytest
+#
+
+projectname: thursdaytest
+vendorid: com.thursdaytest
+mainmodule: com.thursdaytest.thursdaytest
